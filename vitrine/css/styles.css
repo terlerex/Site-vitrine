@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+.body {
+    background-color: #2a2a3c;
+    padding-top: 2vh;
+    text-align: center;
+    margin: 0%;
+    background-image: url(../images/wallpaper_blur.png);
+}
+
+/* Présentation */
+
+.presentation {
+    font-family: 'Staatliches';
+    background-color:#140f07;
+    border:1px solid #140f07;
+    padding:220px;
+    -moz-border-radius:10px 0;
+    -webkit-border-radius:10px 0;
+    border-radius:10px 10px;
+    margin-left: 5ch;
+    margin-right: 5ch;
+    margin-top: 5vh; 
+}
+
+.presentation h1 {
+    text-align: center;
+    color: white;
+    font-size: 55px;
+}
+
+.presentation h2 {
+    text-align: center;
+    color: white;
+}
+
+.presentation h3 {
+    color: white;
+    font-family: 'Montserrat';
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 30px;
+    margin-top: -10vh;
+}
+
+.icon {
+    padding: 0 30px 0 30px;
+    font-size: 80px;
+    justify-content: space-between;
+}
+
+
+.photo-blur img {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    }
+    .photo-blur img:hover {
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    }
+
+
+/* compétence */
+
+.competence {
+    background-color:#140f07;
+    border:1px solid #140f07;
+    padding:150px;
+    -moz-border-radius:10px 0;
+    -webkit-border-radius:10px 0;
+    border-radius:10px 10px;
+    margin-top: 5vh;
+    margin-left: 5ch;
+    margin-right: 5ch;
+}
+
+.competence h1 {
+    color: white;
+    font-size: 45px;
+    text-decoration: underline solid white;
+    margin-bottom: 50px;
+    font-family: 'Montserrat';
+}
+
+.html {
+    width: 150px;
+    height: 150px;
+}
+.csharp {
+    width: 150px;
+    height: 150px;
+}
+.python {
+    width: 150px;
+    height: 150px;
+}
+.css {
+    width: 150px;
+    height: 150px;
+}
+
+/* réalisation */
+
+.realisation {
+    background-color:#140f07;
+    border: 1px solid #140f07;
+    padding: 150px;
+    -moz-border-radius:10px 0;
+    -webkit-border-radius:10px 0;
+    border-radius:10px 10px;
+    margin-top: 3vh;
+    margin-left: 5ch;
+    margin-right: 5ch;
+}
+
+.realisation h1 {
+    color: white;
+    text-decoration: underline white;
+    padding-bottom: 250px;
+    font-family: 'Montserrat';
+}
+
+.page1 {
+    width: 680px;
+    height: 800px;
+    margin-bottom: 20vh;
+    -moz-border-radius:10px 0;
+    -webkit-border-radius:10px 0;
+    border-radius:10px 10px;
+    border: 1px solid black;
+}
+
+.realisation a 
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+.realisation a:hover
+{
+    color: rgb(197, 197, 197);
+}
+
+
+footer {
+    background-color:#140f07;
+    color: white;
+    font-family: 'Staatliches';
+    margin-top: 2vh;
+    text-align: center;
+}
+
